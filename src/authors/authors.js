@@ -1,13 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import "./authors.css";
+import { AuthorDisplay } from "./AuthorDisplay";
 
-export default function Authors() {
-    return (
-        <div className="Authors">
-            <div className="lander">
-                <h1>Authors</h1>
-                <p>Welcome to Authors.</p>
+export default class Authors extends Component {
+    render() {
+        return(
+            <div className="Authors">
+                <div className="lander">
+                    <AuthorDisplay authors={this.state.authors} />
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
