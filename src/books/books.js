@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./books.css";
-import { BookDisplay } from "./BooksDisplay";
+import { BookDisplay } from "./BookDisplay";
 
 export default class Books extends Component {
     constructor(props) {
