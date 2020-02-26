@@ -9,15 +9,18 @@ export default class Authors extends Component {
             authors: [
                 {
                     id: 1,
-                    Aname: "Eric Evans"
+                    aName: "Eric Evans",
+                    birthDate: "12/12/65"
                 },
                 {
                     id: 2,
-                    Aname: "Nicole Forsgren"
+                    aName: "Nicole Forsgren",
+                    birthDate: "1/2/70"
                 },
                 {
                     id: 3,
-                    Aname: "George RR Martin"
+                    aName: "George RR Martin",
+                    birthDate: "8/20/48"
                 }
             ]
         };
